@@ -19,5 +19,9 @@ PrimeraApp.propTYypes={
 saludo:PropTYypes.string.isRequired
 }
 
+PrimeraApp.defaultProps={
+    subtitulo:'soy un subtitulo, auque este algo lastimado saldre de este aun mejor'
+
+}
 
 export default PrimeraApp;
