@@ -1,18 +1,20 @@
 import React from 'react'
-import propTypes from'´prop-types'
+import PropTypes from 'prop-types'
 
-
-const CounterApp = ({value}) => {
+const CounterApp = ({value})=> {
   return (
     <>
-        <h1>CounterApp</h1>
-        <h2>{value}</h2>
+    <h1>CounterApp</h1>
+    <h2>{value }</h2>
+
+    <button onClick={function(){console.log('+1')}}>+1</button>
+
     </>
   )
 }
-CounterApp.propTypes = {
-    value:propTypes.number
 
+CounterApp.propTypes = {
+    value:PropTypes.number
 }
 
-export default CounterApp
+export default CounterApp;
