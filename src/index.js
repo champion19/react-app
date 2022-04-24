@@ -10,4 +10,5 @@ const divRoot=document.querySelector('#app');
 
 
 
-ReactDOM.render(<CounterApp value={10}/>,divRoot);
+ReactDOM.render(<CounterApp value={100}/>,divRoot);
+
